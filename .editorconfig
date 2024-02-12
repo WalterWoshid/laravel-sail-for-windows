@@ -1,0 +1,25 @@
+[*]
+indent_size = 2
+max_line_length = 80
+ij_any_block_comment_at_first_column = false
+ij_any_line_comment_at_first_column = false
+
+[*.php]
+indent_size = 4
+ij_php_blank_lines_around_class = 0
+ij_php_comma_after_last_argument = true
+ij_php_comma_after_last_array_element = true
+ij_php_comma_after_last_closure_use_var = true
+ij_php_comma_after_last_match_arm = true
+ij_php_comma_after_last_parameter = true
+ij_php_phpdoc_blank_line_before_tags = true
+
+[*.ps1]
+ij_powershell_block_brace_style = end_of_line
+ij_powershell_catch_on_new_line = false
+ij_powershell_class_brace_style = end_of_line
+ij_powershell_continuation_indent_size = 4
+ij_powershell_else_on_new_line = false
+ij_powershell_keep_simple_blocks_in_one_line = true
+ij_powershell_method_brace_style = end_of_line
+ij_powershell_special_else_if_treatment = false

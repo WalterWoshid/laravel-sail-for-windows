@@ -1,0 +1,8 @@
+# IDEs
+/.idea
+!/.idea/externalDependencies.xml
+/.vscode
+!/.vscode/extensions.json
+
+# Composer
+/vendor

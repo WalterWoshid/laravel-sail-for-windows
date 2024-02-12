@@ -1,0 +1,30 @@
+{
+  "name": "walterwoshid/laravel-sail-for-windows",
+  "description": "Windows (PowerShell) support for Laravel Sail on Windows.",
+  "keywords": ["laravel", "sail", "windows", "powershell"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Walter Woshid",
+      "email": "wotschel.valentin@googlemail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WalterWoshid\\SailForWindows\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.52.16|^10.0|^11.0",
+    "laravel/sail": "^1.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "WalterWoshid\\SailForWindows\\SailForWindowsServiceProvider"
+      ]
+    }
+  }
+}
