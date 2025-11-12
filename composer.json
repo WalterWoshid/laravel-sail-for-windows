@@ -17,7 +17,7 @@
   },
   "require": {
     "php": "^8.0",
-    "illuminate/support": "^9.52.16|^10.0|^11.0",
+    "illuminate/support": "^9.52.16|^10.0|^11.0|^12.0",
     "laravel/sail": "^1.0"
   },
   "extra": {
